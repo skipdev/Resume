@@ -1,0 +1,48 @@
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+hr {
+    width: 70%;
+}
+
+.sidebar {
+    background-color: #EE55B0;
+    height: 100%;
+    width: 23%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+    .sidebar img {
+        width: 50%;
+        border-radius: 100%;
+        margin: 20% 0% 10% 20%;
+        display: block;
+    }
+    
+    .sidebar p {
+        font-size: 17px;
+        margin: 0% 5% 0% 5%;
+        text-align: center;
+        color: white;
+    }
+    
+    .sidebar a {
+        font-size: 15px;
+        margin: 10% 10% 10% 10%;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+    
+        .sidebar a:hover {
+            color: lightgrey;
+        }
+
+.main {
+    margin-left: 23%;
+    padding: 15px;
+}
