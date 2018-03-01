@@ -4,6 +4,9 @@ body {
 
 hr {
     width: 70%;
+    border-radius: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .sidebar {
@@ -43,6 +46,33 @@ hr {
         }
 
 .main {
+    font-size: 18px;
     margin-left: 23%;
     padding: 15px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#skills ul {
+    width: 40%;
+}
+
+    #first_ul {
+        float: left;
+    }
+    
+    #second_ul {
+        float: right;
+    } 
+
+#work_exp .title2 {
+    font-weight: bold;
+}
+    
+#work_exp .date {
+    font-size: 14px;
+    font-style: italic;
 }
