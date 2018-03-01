@@ -9,6 +9,16 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+#top {
+    float: right;
+    margin-left: 10%
+}
+
+    #top p {
+        font-size: 14px;
+        text-align: right;
+    }
+
 .sidebar {
     background-color: #EE55B0;
     height: 100%;
@@ -23,6 +33,7 @@ hr {
         border-radius: 100%;
         margin: 20% 0% 10% 20%;
         display: block;
+        padding-left: 7%;
     }
     
     .sidebar p {
@@ -44,16 +55,34 @@ hr {
         .sidebar a:hover {
             color: lightgrey;
         }
+        
+    .sidebar ul {
+        padding-top: 5%;
+        margin-left: 10%;
+        margin-right: 20%;
+    }
+    
+        .sidebar ul li {
+            display: inline-block;
+            list-style-type: none;
+            padding: 15%;
+        }
 
 .main {
     font-size: 18px;
-    margin-left: 23%;
+    margin-top: -35px;
+    margin-left: 25%;
+    margin-right: 2%;
     padding: 15px;
 }
 
 .title {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
+}
+
+#about {
+    padding-top: 5%;
 }
 
 #skills ul {
