@@ -20,16 +20,9 @@ hr {
         text-align: right;
     }
 
-    
-.menu_show {
-	left: 0!important;
-	width: 30%;
-	transition: .3s all;
-}
-
 /* Sidebar */
 
-.sidebar, .menu_show {
+.sidebar {
     background-color: #EE55B0;
     height: 100%;
     width: 23%;
@@ -38,7 +31,7 @@ hr {
     position: fixed;
 }
 
-    .sidebar img, .menu_show img {
+    .sidebar img {
         width: 50%;
         border-radius: 100%;
         margin: 20% 0% 10% 20%;
@@ -46,14 +39,14 @@ hr {
         padding-left: 7%;
     }
     
-    .sidebar p, .menu_show p {
+    .sidebar p {
         font-size: 17px;
         margin: 0% 5% 0% 5%;
         text-align: center;
         color: white;
     }
     
-    .sidebar a, .menu_show a {
+    .sidebar a {
         font-size: 15px;
         margin: 10% 10% 10% 10%;
         text-align: center;
@@ -62,17 +55,17 @@ hr {
         display: block;
     }
     
-        .sidebar a:hover, .menu_show a:hover {
+        .sidebar a:hover {
             color: lightgrey;
         }
         
-    .sidebar ul, .menu_show ul {
+    .sidebar ul {
         padding-top: 5%;
         margin-left: 10%;
         margin-right: 20%;
     }
     
-        .sidebar ul li, .menu_show ul li {
+        .sidebar ul li {
             display: inline-block;
             list-style-type: none;
             padding: 15%;
@@ -120,13 +113,14 @@ hr {
 /* Burger Menu */
 
 @media only screen and (max-width: 750px) {
-    .container {
+.container {
     display: inline-block;
     cursor: pointer;
     background-color: #EE55B0;
-    margin-left: 29%;
+    margin-left: -2%;
     padding: 5px;
     padding-top: 10px;
+    
 }
 
 .bar1, .bar3 {
@@ -161,21 +155,18 @@ hr {
     }
     
 .sidebar{
+    margin-left: -30%;
     width: 30%;
-	transition: .3s all;
+	transition: .5s all;
 }
 
-
-.menu_show {
-   width: -30%; 
-   padding: 100px;
-   transition: .3s all;
-}
 
 .main {
-    width: 66%;
-    float: right;
-    padding: 0 0 0 0;
+    font-size: 18px;
+    margin-top: -25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
 }
 
 #about {
