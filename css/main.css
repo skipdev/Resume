@@ -99,6 +99,10 @@ hr {
     #second_ul {
         float: right;
     } 
+    
+        #first_ul li, #second_ul li {
+            padding: 5px;
+        }
 
 #work_exp .title2 {
     font-weight: bold;
@@ -117,10 +121,11 @@ hr {
     display: inline-block;
     cursor: pointer;
     background-color: #EE55B0;
+    border-radius: 100px;
     margin-left: -2%;
     padding: 5px;
-    padding-top: 10px;
-    
+    top: 0;
+    position: fixed;
 }
 
 .bar1, .bar3 {
@@ -158,18 +163,41 @@ hr {
     margin-left: -40%;
     width: 40%;
 	transition: .5s all;
+	height: 100%;
 }
 
 
 .main {
     font-size: 18px;
-    margin-top: -25px;
+    margin-top: -8%;
     margin-left: 5%;
     width: 88%;
 }
 
 #about {
-    margin-top: 100px;
+    margin-top: 180px;
 }
-	
+
+#first_ul, #second_ul {
+    float: left;
+} 
+
+#skills ul {
+    width: 70%;
+}
+
+#work_exp ul {
+    margin-right: 10px;
+    margin-left: -20px;
+}
+
+.sidebar ul {
+        margin-left: 2%;
+    }
+.sidebar a {
+    padding: 2px;
+}
+
+        
+        
 }
