@@ -10,6 +10,11 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+i {
+    font-size: 15px;
+    color: #3a3a3a;
+}
+
 #top {
     float: right;
     margin-left: 10%
@@ -104,13 +109,16 @@ hr {
             padding: 5px;
         }
 
-#work_exp .title2 {
+.title2 {
     font-weight: bold;
+    font-size: 20px;
 }
     
-#work_exp .date {
+.date {
+    color: #4f4f4f;
     font-size: 14px;
     font-style: italic;
+    margin-top: -10px;
 }
 
 
