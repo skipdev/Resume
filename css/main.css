@@ -103,6 +103,7 @@ i {
     
     #second_ul {
         float: right;
+        padding-bottom: -5px;
     } 
     
         #first_ul li, #second_ul li {
@@ -121,6 +122,24 @@ i {
     margin-top: -10px;
 }
 
+#click_here {
+   margin-top: 10px;
+   margin-bottom: 50px;
+}
+    
+    #click_here p {
+        margin: 2px;
+    }
+    
+    #click_here a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+#skill_list {
+    margin-bottom: 215px;
+}
 
 /* Burger Menu */
 
